@@ -1,0 +1,196 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+  .dark-mode {
+
+    background-color: black;
+
+    color: white;
+
+  }
+
+.wrapper{
+
+    display: flex;
+
+    flex-flow: row wrap;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-weight: bold;
+
+}
+
+ 
+
+.wrapper>*{
+
+    padding: 5px;
+
+    /* margin: 5px; */
+
+    flex: 1 100%;
+
+    /* border-radius: 10px */
+
+}
+
+ 
+
+.header{
+
+    background: black;
+
+    color: white;
+
+    height: 90px;
+
+}
+
+ 
+
+.insideHeader{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 25px
+
+}
+
+ 
+
+.insideFooter{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 15px;
+
+}
+
+ 
+
+.aside{
+
+    margin-top: 50px;
+
+}
+
+ 
+
+.footer{
+
+    background: lightcyan;
+
+    height: 80px;
+
+}
+
+ 
+
+.main{
+
+    text-align: left;
+
+
+    height: 700px;
+
+    margin-top: 50px;
+
+}
+ 
+
+@media (min-width: 800px){
+    .main{
+
+        flex: 3;
+
+    }
+
+    .aside1{
+
+        order:1;
+    }
+
+    .aside2{
+
+        order:2;
+    }
+
+ 
+
+    .main{
+
+        order: 2;
+
+    }
+
+ 
+
+    .footer{
+
+        order:4;
+
+    }
+
+ 
+
+}
+
+ 
+
+@media (min-width: 800px){ 
+
+    .font-size{
+            font-size: xx-large;
+    }      
+
+    .margin-top{
+            margin-top: 10px;
+    }
+
+    .margin-right{
+        margin-right: 100px;
+    }
+    .aside{
+
+        flex: 1;
+
+    }
+}
+
+ 
+
+@media only screen and (max-width: 768px) {
+
+    .wrapper {
+
+      flex-direction: column;
+
+    }
+    .sm-margin-right{
+        margin-right: 15px;
+    }
+
+     .text-center{
+        text-align: center;
+    }
+
+    .sm-font-size{
+            font-size: 20px;
+    }
+
+
+  }
+
+  .removeUnderLine{
+      text-decoration: none;
+  }
