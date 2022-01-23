@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/car-catalog/static/js/main.36553947.js",
+    "static/js/787.3689462b.chunk.js": "/car-catalog/static/js/787.3689462b.chunk.js",
+    "index.html": "/car-catalog/index.html",
+    "main.36553947.js.map": "/car-catalog/static/js/main.36553947.js.map",
+    "787.3689462b.chunk.js.map": "/car-catalog/static/js/787.3689462b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.36553947.js"
+  ]
+}
